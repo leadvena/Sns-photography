@@ -1,0 +1,8 @@
+{
+  "name": "SNS Photography & Films | Luxury Wedding & Portrait Studio Abu Dhabi",
+  "description": "Premium photography and cinematography studio in Abu Dhabi specializing in weddings, portraits, and corporate event coverage. Near Civil Wedding Judicial Department.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

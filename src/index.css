@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --color-primary: #0A0A0A;
+  --color-gold: #C8A951;
+  --color-warm-white: #F7F3EE;
+  --color-charcoal: #1C1C1C;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-primary text-warm-white font-sans;
+}
+
+.font-serif {
+  @apply font-serif;
+}
+
+.text-gold {
+  @apply text-gold;
+}
+
+.bg-gold {
+  @apply bg-gold;
+}
+
+/* Custom transitions for interactive elements */
+.hover-gold-glow {
+  @apply transition-all duration-300;
+}
+
+.hover-gold-glow:hover {
+  @apply border-gold shadow-[0_0_15px_-3px_rgba(200,169,81,0.4)];
+}
